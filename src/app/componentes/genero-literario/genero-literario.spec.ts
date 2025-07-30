@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { GeneroLiterario } from './genero-literario';
+import { GeneroLiterarioComponent } from './genero-literario';
 
 describe('GeneroLiterario', () => {
-  let component: GeneroLiterario;
-  let fixture: ComponentFixture<GeneroLiterario>;
+  let component: GeneroLiterarioComponent;
+  let fixture: ComponentFixture<GeneroLiterarioComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [GeneroLiterario]
+      imports: [GeneroLiterarioComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(GeneroLiterario);
+    fixture = TestBed.createComponent(GeneroLiterarioComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
